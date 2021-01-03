@@ -1,0 +1,10 @@
+Package: indianaBones
+Title: Analysis of bone 3D morphology
+Version: 0.9
+Author: Alessio Veneziano
+Maintainer: Alessio Veneziano <veneziano.alessio@gmail.com>
+Description: The package implements some novel tools for the study of bone morphology using micro-Computerized Tomography (microCT). Currently, it includes a set of functions for the segmentation of cancellous and compact bone, and for the characterization of the cancellous architecture. Other functions allow handling and processing 3D image stacks (volumes).
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
