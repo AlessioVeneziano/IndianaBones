@@ -27,7 +27,7 @@ readTiffStack<-function(path,cores = 2){
   im<-array(unlist(im),c(dims,length(files)))
   
   if(length(dims)>2){
-    perm<-(1:dims[3])
+    perm <- 1:length(dims)
     perm[1:2]<-perm[2:1]
     perm<-c(perm,4)
     im<-aperm(im,perm)
