@@ -3,12 +3,15 @@
 #' Calculates the branch length of the topological skeleton and the average branch length per node.
 #'
 #' @param skel topological skeleton, output of \code{readAmiraSkeleton}
-#' 
+#'
 #' @return
 #' \item{edgeL}{a vector of branch lengths, of length equal to the number of branches in the topological skeleton.}
 #' \item{nodeL}{a vector of average branch length per node, of length equal to the number of nodes in the topological skeleton.}
-#' 
+#'
 #' @author Alessio Veneziano
+#'
+#' @references
+#' Veneziano A, Cazenave M, Alfieri F, Panetta D, Marchi D. 2021. Novel strategies for the characterization of cancellous bone morphology: Virtual isolation and analysis. American Journal of Physical Anthropology.
 #'
 #' @examples
 #' #Calculate branch length of a topological skeleton
@@ -22,7 +25,7 @@ skelLength<-function(skel){
   skEC<-skel[[3]]
   skNEP<-skel[[4]]
   skEPC<-skel[[5]]
-  
+
   edgeP<-skEPC
   edgeN<-skNEP
   edgeL<-c(skNEP*NA)
@@ -35,6 +38,6 @@ skelLength<-function(skel){
     edgeN<-edgeN[-1]
   }
   meanL<-aggregate(c(edgeL,edgeL),list(c(skEC[,1],skEC[,2])),mean)$x
-  
+
   return(list(edgeL=edgeL,nodeL=meanL))
 }
