@@ -28,6 +28,9 @@ obtained by vector sum in 3D. \code{Axis} can be provided by the user as a matri
 the axis. Alternatively, if \code{Axis} is set to 1, 2 or 3, the reference axis is calculated as the principal component
 axes of the skeleton node coordinates using \code{getAxis}.
 }
+\references{
+Veneziano A, Cazenave M, Alfieri F, Panetta D, Marchi D. 2021. Novel strategies for the characterization of cancellous bone morphology: Virtual isolation and analysis. American Journal of Physical Anthropology.
+}
 \author{
 Alessio Veneziano
 }

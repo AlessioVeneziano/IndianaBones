@@ -58,14 +58,15 @@ the largest pixel island are removed; when \code{cleanVoid} is \code{NULL}, no c
 #Segment cancellous and compact bone from 3D image stack
 data(exampleStack)
 require(EBImage)
-strel<-makeBrush(3,"disc")
-seg<-splitBone(Stack,strel,3,2,3,0)
+strel<-makeBrush(5,"disc")
+seg<-splitBone(exampleStack,strel,3,2,3,0)
   image(exampleStack[,,30],col=grey(0:32/32))
   image(seg$trab[,,30],col=grey(0:32/32))
   image(seg$comp[,,30],col=grey(0:32/32))
 
 }
 \references{
+Veneziano A, Cazenave M, Alfieri F, Panetta D, Marchi D. 2021. Novel strategies for the characterization of cancellous bone morphology: Virtual isolation and analysis. American Journal of Physical Anthropology.
 Urbach ER, Wilkinson MH. 2007. Efficient 2-D grayscale morphological transformations with arbitrary flat structuring elements. IEEE Transactions on image processing, 17(1), 1-8.
 }
 \author{

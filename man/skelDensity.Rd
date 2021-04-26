@@ -31,6 +31,8 @@ dens<-skelDensity(exampleSkeleton,method="node")
 
 }
 \references{
+Veneziano A, Cazenave M, Alfieri F, Panetta D, Marchi D. 2021. Novel strategies for the characterization of cancellous bone morphology: Virtual isolation and analysis. American Journal of Physical Anthropology.
+
 Venables, WN and Ripley, BD. 2002. Modern Applied Statistics with S. Fourth edition. Springer.
 }
 \author{

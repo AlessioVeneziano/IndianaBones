@@ -21,9 +21,7 @@ Calculates principal component axes of 3D point cloud.
 \code{findAxis} uses the function \code{princomp} to calculate the major axes of a 2D or 3D point cloud.
 The axis specifies if the first (ax = 1), second (ax = 2) or third (ax = 3) principal component axis is calculated.
 }
-\author{
-Alessio Veneziano
-
+\examples{
 #Calculate and plot principal axes of 3D point cloud
 x<-rnorm(1000,0,0.1)
 y<-rnorm(1000,0,0.2)
@@ -37,4 +35,8 @@ a3<-getAxis(p,3)
     lines3d(a1,col="red")
     lines3d(a2,col="blue")
     lines3d(a3,col="green")
+
+}
+\author{
+Alessio Veneziano
 }

@@ -22,6 +22,9 @@ data(exampleSkeleton)
 len<-skelLength(exampleSkeleton)
 
 }
+\references{
+Veneziano A, Cazenave M, Alfieri F, Panetta D, Marchi D. 2021. Novel strategies for the characterization of cancellous bone morphology: Virtual isolation and analysis. American Journal of Physical Anthropology.
+}
 \author{
 Alessio Veneziano
 }

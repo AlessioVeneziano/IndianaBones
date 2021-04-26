@@ -23,14 +23,6 @@ The function works on binary images, assuming that background pixels are of valu
 are checked using a 'box' kernel defined within the function. The argument \code{nvoxel} specifies the maximum number of 3D pixels that are considered an island: islands consisting of a number of 3D pixels lower or equal to \code{nvoxel} are
 deleted. When \code{nvoxel} has value '0' (default) all but the largest pixel island are removed.
 }
-\examples{
-#Clean image stack keeping only the largest connected region
-data(exampleStack)
-compStack<-cleanStack(exampleStack,nvoxel=0)
-image(exampleStack[,,30])
-image(compStack[,,30])
-
-}
 \author{
 Alessio Veneziano
 }

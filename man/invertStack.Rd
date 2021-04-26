@@ -19,8 +19,8 @@ Inverts all the pixel values in an image stack, creating a negative of the image
 #Invert pixel values of binary volume and plot 2D image
 data(exampleStack)
 invStack<-invertStack(exampleStack)
-image(exampleStack[,,30])
-image(invStack[,,30])
+image(exampleStack[,,20])
+image(invStack[,,20])
 
 }
 \author{

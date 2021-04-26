@@ -10,7 +10,7 @@ isBinarized(Stack)
 \item{Stack}{an image stack object}
 }
 \value{
-\code{TRUE} or \code{FALSE} depending on whether its argument is binarized or not.
+\code{TRUE} or \code{FALSE} depending on whether \code{Stack} is binarized or not.
 }
 \description{
 Checks if an image stack is binarized (contains only two types of pixels, black and white).

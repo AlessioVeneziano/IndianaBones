@@ -29,6 +29,7 @@ tort<-skelTortuosity(exampleSkeleton)
 
 }
 \references{
+Veneziano A, Cazenave M, Alfieri F, Panetta D, Marchi D. 2021. Novel strategies for the characterization of cancellous bone morphology: Virtual isolation and analysis. American Journal of Physical Anthropology.
 Roque WL, & Alberich-Bayarri A. 2015. Tortuosity influence on the trabecular bone elasticity and mechanical competence. In Jorge RN, Tavares JM (Eds) Developments in Medical Image Processing and Computational Vision, pp 173-191. Springer, Cham
 }
 \author{
