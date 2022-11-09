@@ -1,5 +1,5 @@
 # IndianaBones
-An R package for the virtual analysis of bone 3D morphology.
+An R package for the virtual analysis and processing of bone 3D morphology.
 
 The package implements some novel tools for the study of bone morphology using micro-Computerized Tomography (microCT). Currently, it includes a set of functions for the segmentation of cancellous and compact bone, and for the characterization of the cancellous architecture. Other functions allow handling and processing 3D image stacks (volumes).
 
