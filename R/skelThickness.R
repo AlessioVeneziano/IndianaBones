@@ -6,7 +6,7 @@
 #'
 #' @return A vector of branch thickness calculated at each coordinate making up the branch.
 #'
-#' @author Alessio Veneziano
+#' @author Alessio Veneziano, Fabio Alfieri
 #'
 #' @references
 #' Veneziano A, Cazenave M, Alfieri F, Panetta D, Marchi D. 2021. Novel strategies for the characterization of cancellous bone morphology: Virtual isolation and analysis. American Journal of Physical Anthropology.
