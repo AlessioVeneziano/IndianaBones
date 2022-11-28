@@ -10,7 +10,7 @@
 #' @return A list including: node coordinates (VertexCoordinates), branch coordinates (EdgePointsCoordinates), node-to-node connectivity (EdgeConnectivity),
 #' number of 3D points constituting each branch (NumEdgePoints) and thickness at each branch point (Thickness).
 #'
-#' @author Alessio Veneziano
+#' @author Alessio Veneziano, Fabio Alfieri
 #'
 #' @export
 
