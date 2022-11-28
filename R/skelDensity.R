@@ -12,7 +12,7 @@
 #' \item{Density}{a vector of densities estimated at each node (if \code{method = 'node'}; unit: node per cube cm) or branch point (if \code{method = 'edge'}; unit: branch point per cube cm).}
 #' \item{map}{an array of dimension \code{nxyz} with the estimated kernel density.}
 #'
-#' @author Alessio Veneziano
+#' @author Alessio Veneziano, Fabio Alfieri
 #'
 #' @references
 #' Veneziano A, Cazenave M, Alfieri F, Panetta D, Marchi D. 2021. Novel strategies for the characterization of cancellous bone morphology: Virtual isolation and analysis. American Journal of Physical Anthropology.
