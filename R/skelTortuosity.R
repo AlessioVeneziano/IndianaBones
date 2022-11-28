@@ -11,7 +11,8 @@
 #'
 #' @return A vector of branch tortuosity, of length equal to the number of branches in the topological skeleton.
 #'
-#' @authors Alessio Veneziano, Fabio Alfieri
+#' @author 
+#' Alessio Veneziano, Fabio Alfieri
 #'
 #' @references
 #' Veneziano A, Cazenave M, Alfieri F, Panetta D, Marchi D. 2021. Novel strategies for the characterization of cancellous bone morphology: Virtual isolation and analysis. American Journal of Physical Anthropology.
