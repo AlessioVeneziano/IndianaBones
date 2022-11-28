@@ -7,7 +7,7 @@
 #'
 #' @return Angle between vectors in radians.
 #'
-#' @author Alessio Veneziano
+#' @author Alessio Veneziano, Fabio Alfieri
 #'
 #' @export
 
