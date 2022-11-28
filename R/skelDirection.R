@@ -18,7 +18,7 @@
 #' \item{resDir}{a vector of the main branch direction resulting from vector sum.}
 #' \item{resAng}{the main branch angle calculated in radians.}
 #'
-#' @author Alessio Veneziano
+#' @author Alessio Veneziano, Fabio Alfieri
 #'
 #' @references
 #' Veneziano A, Cazenave M, Alfieri F, Panetta D, Marchi D. 2021. Novel strategies for the characterization of cancellous bone morphology: Virtual isolation and analysis. American Journal of Physical Anthropology.
